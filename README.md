@@ -1,6 +1,6 @@
 # Question-pk
 
-> 非常简易的前端实现
+> 非常简易的 pk 前端实现
 
 ## Setup
 
