@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+ul,ol,li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+}
+@keyframes grow {
+  0% {
+      stroke-dashoffset: 1px;
+      stroke-dasharray: 0 1000px;
+      opacity: 0;
+  }
+  10% {
+      opacity: 1;
+  }
+  to {
+      stroke-dasharray: 1000px 0;
+  }
+}
+.path1 {
+  stroke-dashoffset: 1px;
+  stroke-dasharray: 1000px 0;
+  animation: grow 0.5s ease forwards;
+  transform-origin: center;
+  animation-delay: 0s;
+}
