@@ -7,5 +7,12 @@ export default defineConfig({
   server: {
     proxy: {
     }
+  },
+  tools: {
+    rspack: {
+      output: {
+        publicPath: '/question-pk/'
+      } 
+    }
   }
 });
