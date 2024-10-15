@@ -8,11 +8,7 @@ export default defineConfig({
     proxy: {
     }
   },
-  tools: {
-    rspack: {
-      output: {
-        publicPath: '/question-pk/'
-      } 
-    }
-  }
+  output: {
+    assetPrefix: '/question-pk/',
+  },
 });
